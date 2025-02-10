@@ -1,5 +1,6 @@
 // Substitua YOUR_API_KEY pela sua chave real da API do Google Gemini
        const API_KEY = process.env.GOOGLE_GEMINI_API_KEY;
+console.log(API_KEY); // Teste para ver se a chave foi carregada
         
         const contentData = {
             "LÍNGUA PORTUGUESA": [
