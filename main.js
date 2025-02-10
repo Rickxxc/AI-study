@@ -1,5 +1,5 @@
 // Substitua YOUR_API_KEY pela sua chave real da API do Google Gemini
-        const API_KEY = 'AIzaSyCqtL3txurKLN1G051WZmtq6koAutlZ-6I';
+       const API_KEY = process.env.GOOGLE_GEMINI_API_KEY;
         
         const contentData = {
             "LÍNGUA PORTUGUESA": [
